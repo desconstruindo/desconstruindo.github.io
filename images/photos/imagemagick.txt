@@ -1,0 +1,5 @@
+convert -background '#0008' -fill white -pointsize 28 -gravity center -font "/Library/Fonts/Arial Unicode.ttf" label:'\ \ Fernando França (フランサ) <http://desconstruindo.furansa.me>\ \ ' label28.png
+
+composite -alpha on -gravity southeast label.png photo.jpg photo_wm.jpg 
+
+convert image.jpg -resize 100 image_tb.jpg
