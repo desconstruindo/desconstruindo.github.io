@@ -11,4 +11,4 @@ Here's the link to my [professional curriculum](https://www.linkedin.com/in/fura
 (usually updated) and my [academic curriculum](http://lattes.cnpq.br/3871219467239903) 
 (highly outdated).
 
-You can also reach me by mail at *desconstruindo at furansa dot me*.
+You can also reach me by mail at < *desconstruindo at furansa dot me* >.
