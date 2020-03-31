@@ -10,7 +10,7 @@ on Linux.
 
 **Published:** *2020-03-31 11:00:00 -0300*.
 
-**Tags:** *Embedded Systems, ESP32, Python*.
+**Tags:** *Embedded Systems, ESP32, MicroPython, Python*.
 
 #### Academic texts
 I've put [here](./articles) the academic texts for the projects that I've worked
