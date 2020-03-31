@@ -7,8 +7,10 @@ Systems, Cyber Security and Artificial Intelligence/Machine Learning.
 
 Occasionally I try to compose some music and build some cool electronic stuff and games.
 
-Here's the link to my [professional curriculum](https://www.linkedin.com/in/furansa) 
-(usually updated) and my [academic curriculum](http://lattes.cnpq.br/3871219467239903) 
+Here's the link to my
+[professional curriculum](https://www.linkedin.com/in/furansa){:target="_blank"}
+(usually updated) and my
+[academic curriculum](http://lattes.cnpq.br/3871219467239903){:target="_blank"}
 (highly outdated).
 
 You can also reach me by mail at < *desconstruindo at furansa dot me* >.
