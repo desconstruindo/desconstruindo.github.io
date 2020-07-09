@@ -1,11 +1,10 @@
 ### [about]
-I'm electrical engineer, technology enthusiast and jazz guitar player with 
-influences in Brazilian music.
+Electrical engineer post-graduated in automotive embedded systems and artificial
+intelligence/machine learning (in progress).
 
-I work as a software developer (C, C++, Java and Python) and also research in
-Embedded Systems, Cyber Security and Artificial Intelligence/Machine Learning.
-
-Occasionally I try to compose some music and build some cool electronic stuff and games.
+Technology enthusiast focused on software engineering and data science with
+solid knowledge in software architecture, design, development and security,
+embedded systems and IoT, analog and digital electronics.
 
 Here's the link to my
 [professional curriculum](https://www.linkedin.com/in/furansa){:target="_blank"}
