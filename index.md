@@ -25,4 +25,4 @@ English some day.
 
 **Tags:** Automotive, Cyber Security, Embedded Systems, Power Quality, Sustainability.
 
-[Send me a message](mailto:desconstruindo@furansa.me?subject=Comments%20on%20post%20Academic%20text) and let me know your comments.
+[Send me a message](mailto:desconstruindo@furansa.me?subject=Comments%20on%20post%20Academic%20texts) and let me know your comments.
