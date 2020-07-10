@@ -1,5 +1,7 @@
 ### Getting started with ESP32 and MicroPython
-**Last update:** *2020-03-31 11:00:00 -0300*.
+**Last update:** 2020-03-31 11:00:00 -0300.
+
+[Send me a message](mailto:desconstruindo@furansa.me?subject=Comments%20on%20article%20Getting%20started%20with%20ESP32%20and%20MicroPython) and let me know your comments.
 
 #### Introduction
 In this article I'm going to share my first experience playing with ESP32

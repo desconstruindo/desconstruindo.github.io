@@ -12,4 +12,4 @@ Here's the link to my
 [academic curriculum](http://lattes.cnpq.br/3871219467239903){:target="_blank"}
 (highly outdated).
 
-You can also reach me by mail at < *desconstruindo at furansa dot me* >.
+[Send me a message](mailto:desconstruindo@furansa.me?subject=Comments%20on%20page%20about) and let me know your comments.

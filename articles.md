@@ -11,6 +11,8 @@ be very tricky to acomplish.
 
 Full text: [English](./articles/getting_started_with_esp32_and_micropython).
 
+[Send me a message](mailto:desconstruindo@furansa.me?subject=Comments%20on%20article%20Getting%20started%20with%20ESP32%20and%20MicroPython) and let me know your comments.
+
 #### Considerations on Cyber Security in Automotive Embedded Systems.
 Text produced as part of my post-graduation (specialization) in embedded systems
 for automotive industry.
@@ -26,6 +28,8 @@ presented. Lastly are presented cases of vulnerabilities and security attacks
 to the automotive embedded systems.
 
 Full text: [Portuguese](./articles/Franca_F-Considerations_On_Cyber_Security_In_Automotive_Embedded_Systems.pdf).
+
+[Send me a message](mailto:desconstruindo@furansa.me?subject=Comments%20on%20article%20Considerations%20on%20Cyber%20Security%20in%20Automotive%20Embedded%20Systems) and let me know your comments.
 
 #### Embedded System for Power Quality Monitoring
 Text produced as part of my graduation (BS) in electrical engineering.
@@ -46,3 +50,5 @@ the results the performance characterization for the monitored electrical
 installation through the power quality indicators established by PRODIST.
 
 Full text: [Portuguese](./articles/Franca_F-Embedded_System_For_Power_Quality_Monitoring.pdf).
+
+[Send me a message](mailto:desconstruindo@furansa.me?subject=Comments%20on%20article%20Embedded%20System%20for%20Power%20Quality%20Monitoring) and let me know your comments.

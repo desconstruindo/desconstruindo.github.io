@@ -4,7 +4,7 @@ shots anyway, usually urban and nature landscapes from places I've visited.
 None of the photos received any treatment.
 
 Please **don't use** these photos without permission, they are no big deal but 
-have value to me. You can reach me [here](/about).
+have value to me. You can reach me [here](mailto:desconstruindo@furansa.me?subject=Comments%20on%20page%20photos).
 
 Hover the image to see the description and click to open the full image in a new 
 page.
