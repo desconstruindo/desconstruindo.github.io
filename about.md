@@ -1,14 +1,10 @@
 ### [about]
-Electrical engineer post-graduated in automotive embedded systems and artificial
-intelligence/machine learning (in progress).
-
-Technology enthusiast focused on software engineering and data science with
-solid knowledge in software architecture, design, development and security,
-embedded systems and IoT, analog and digital electronics.
+Electrical engineer, technology enthusiast and jazz guitar player with influences
+in Brazilian music.
 
 Here's the link to my
 [professional curriculum](https://www.linkedin.com/in/furansa){:target="_blank"}
-(usually updated) and my
+(usually updated) and also my
 [academic curriculum](http://lattes.cnpq.br/3871219467239903){:target="_blank"}
 (highly outdated).
 
