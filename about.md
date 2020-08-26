@@ -12,4 +12,4 @@ Paris 2008 and jazz guitar player with influences in Brazilian music.
 Here's the link to my [academic curriculum](http://lattes.cnpq.br/3871219467239903){:target="_blank"}
 (usually outdated).
 
-You can reach me [here](mailto:desconstruindo@furansa.me?subject=Comments%20on%20page%20about).
+You can also reach me [here](mailto:desconstruindo@furansa.me?subject=Comments%20on%20page%20about).
