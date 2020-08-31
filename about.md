@@ -1,6 +1,6 @@
 ### [about]
-Electrical engineer post-graduated in automotive embedded systems and artificial
-intelligence/machine learning (in progress).
+Bachelor of electrical engineering post-graduated in automotive embedded systems, artificial
+intelligence/machine learning and masters in software engineering (in progress).
 
 Technology enthusiast focused on software engineering and data science with solid
 knowledge in software architecture, design, development and security, embedded
