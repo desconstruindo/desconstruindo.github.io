@@ -10,7 +10,7 @@ I'm a huge fan of automation for many reasons: it's a one-time job, it saves tim
 
 It's possible to find many other reasons to automate tasks, specially those boring, but in my particular case as a software engineer usually I say that **I know I will make a mistake, just don't know when**. This is a very honest statement when I see myself as a human being and prone to make mistakes and there's some specific situations where I'm not open to take the risk. That's my motivation to write a little about automation.
 
-When working in a software development project with a considerable base of code within hundred of thousands of lines and/or a team that's not only you, the [software quality](https://blog.codacy.com/iso-25010-software-quality-model) in regard to the maintainability attributes, specially testability, becomes a challenge do manage.
+When working in a software development project with a considerable base of code within hundred of thousands of lines and/or a team that's not only you, the [software quality](https://blog.codacy.com/iso-25010-software-quality-model){:target="_blank"} in regard to the maintainability attributes, specially testability, becomes a challenge do manage.
 
 At the same time we are developing new features we also need to write new tests to improve the reliability of our system by making sure the errors will not be hidden. As I've already stated, if I assume I'll make mistakes so I must assume that my code will have errors as well. Therefore how we will approach that situation is the key.
 
