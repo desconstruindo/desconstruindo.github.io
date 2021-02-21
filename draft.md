@@ -1,3 +1,5 @@
+### Learn how to love code reviews
+
 ### Automating boring stuff part 1: using hooks on Git to trigger local tests before commit
 
 **Last update:** 2021-02-08 18:00:00 WET.
