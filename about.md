@@ -1,6 +1,6 @@
 ### [about]
 Master's in Software Engineering (in progress), Bachelor of Electrical Engineering
-and post-graduated in Automotive Embedded Systems.
+and Post-graduated in Automotive Embedded Systems.
 
 Technology enthusiast with solid knowledge in software architecture, development,
 quality, and security.
