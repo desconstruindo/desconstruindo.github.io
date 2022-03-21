@@ -1,24 +1,90 @@
 ### Azure
 
-```console
-# Obtain the info on the MYSQL server in our resource group:
-MYSQL_INFO=$(az mysql server list --query '[0]')
-MYSQL_SERVERNAME=$(az mysql server list --query '[0].name' -o tsv)
-MYSQL_USERNAME="$(az mysql server list --query '[0].administratorLogin' -o tsv)@${MYSQL_SERVERNAME}"
-MYSQL_HOST="$(az mysql server list --query '[0].fullyQualifiedDomainName' -o tsv)"
+Navigate to the path C:\Users\demouser\weather-service\src\main\java\com\example\demo.
+Next to the DemoApplication class, create a Weather.java JPA entity:
 
-# Create a firewall rule to allow connections from your machine:
-MY_IP=$(curl whatismyip.akamai.com 2>/dev/null)
-az mysql server firewall-rule create --server-name $MYSQL_SERVERNAME --name "connect-from-lab" --start-ip-address "$MY_IP" --end-ip-address "$MY_IP"
+```java
+package com.example.demo;
 
-# Create a firewall rule to allow connections from Azure services:
-az mysql server firewall-rule create --server-name $MYSQL_SERVERNAME --name "connect-from-azure" --start-ip-address "0.0.0.0" --end-ip-address "0.0.0.0"
+import javax.persistence.Entity;
+import javax.persistence.Id;
 
-# Create a MySQL database
-az mysql db create --name "azure-spring-cloud-training" --server-name $MYSQL_SERVERNAME
+@Entity
+public class Weather {
 
-# Display MySQL username (to be used in the next section)
-echo "Your MySQL username is: ${MYSQL_USERNAME}"
+    @Id
+    private String city;
+
+    private String description;
+
+    private String icon;
+
+    public String getCity() {
+        return city;
+    }
+
+    public void setCity(String city) {
+        this.city = city;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public String getIcon() {
+        return icon;
+    }
+
+    public void setIcon(String icon) {
+        this.icon = icon;
+    }
+}
+```
+
+Then, in the same location create a Spring Data repository to manage this entity,
+called WeatherRepository.java:
+
+```java
+package com.example.demo;
+
+import org.springframework.data.repository.CrudRepository;
+
+public interface WeatherRepository extends CrudRepository<Weather, String> {
+}
+```
+
+And finish coding this application by adding a Spring MVC controller called WeatherController.java:
+
+```java
+package com.example.demo;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.*;
+
+@RestController
+@RequestMapping(path="/weather")
+public class WeatherController {
+
+    private final WeatherRepository weatherRepository;
+
+    public WeatherController(WeatherRepository weatherRepository) {
+        this.weatherRepository = weatherRepository;
+    }
+
+    @GetMapping("/city")
+    public @ResponseBody Weather getWeatherForCity(@RequestParam("name") String cityName) {
+        return weatherRepository.findById(cityName).get();
+    }
+}
+```
+
+```sql
+INSERT INTO `azure-spring-cloud-training`.`weather` (`city`, `description`, `icon`) VALUES ('Paris, France', 'Very cloudy!', 'weather-fog');
+INSERT INTO `azure-spring-cloud-training`.`weather` (`city`, `description`, `icon`) VALUES ('London, UK', 'Quite cloudy', 'weather-pouring');
 ```
 
 ### Learn how to love code reviews
